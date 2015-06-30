@@ -1,0 +1,52 @@
+switch# show port-channel summary
+ 
+                 Flags
+------------------------ ---------------------------- -------------------------
+  a - LACP Active          p - LACP Passive           * - static fallback
+  F - Fallback enabled     f - Fallback configured    ^ - individual fallback
+  U - In Use               D - Down
+  + - In-Sync              - - Out-of-Sync            i - incompatible with agg
+  P - bundled in Po        s - suspended              G - Aggregable
+  I - Individual           S - ShortTimeout           w - wait for agg
+ 
+Number of channels in use: 26
+Number of aggregators:26
+ 
+Port-Channel Protocol  Ports
+------------ --------- --------------------------------------------------------
+Po1(U)       LACP(a)    Et3/36/1(PG+)
+Po2(U)       LACP(a)    Et3/35/1(PG+)
+Po3(U)       LACP(a)    Et3/34/1(PG+)
+Po4(U)       LACP(a)    Et3/33/1(PG+)
+Po5(U)       LACP(a)    Et3/32/1(PG+)
+Po6(U)       LACP(a)    Et3/31/1(PG+)
+Po7(U)       LACP(a)    Et3/30/1(PG+)
+Po8(U)       LACP(a)    Et3/29/1(PG+)
+Po9(U)       LACP(a)    Et3/28/1(PG+)
+Po10(U)      LACP(a)    Et3/27/1(PG+)
+Po11(U)      LACP(a)    Et3/26/1(PG+)
+Po12(U)      LACP(a)    Et3/25/1(PG+)
+Po13(U)      LACP(a)    Et3/24/1(PG+)
+Po14(U)      LACP(a)    Et3/23/1(PG+)
+Po15(U)      LACP(a)    Et3/22/1(PG+)
+Po16(U)      LACP(a)    Et3/21/1(PG+)
+Po17(U)      LACP(a)    Et3/20/1(PG+)
+Po18(U)      LACP(a)    Et3/19/1(PG+)
+Po19(U)      LACP(a)    Et3/18/1(PG+)
+Po20(U)      LACP(a)    Et3/17/1(PG+)
+Po21(U)      LACP(a)    Et3/16/1(PG+)
+Po22(U)      LACP(a)    Et3/15/1(PG+)
+Po23(U)      LACP(a)    Et3/14/1(PG+)
+Po24(U)      LACP(a)    Et3/13/1(PG+)
+Po25(D)      LACP(a)    Et3/12/1(G-)
+Po26(D)      LACP(a)    Et3/11/1(G-)
+Po101(U)     LACP(a)    Et3/1/1(PSG+) Et3/1/2(PSG+) Et3/1/3(PSG+) Et3/1/4(PSG+)
+                        Et3/3/1(PSG+) Et3/3/2(PSG+) Et3/3/3(PSG+) Et3/3/4(PSG+)
+                        Et3/5/1(PSG+) Et3/5/2(PSG+) Et3/5/3(PSG+) Et3/5/4(PSG+)
+                        Et3/7/1(PSG+) Et3/7/2(PSG+) Et3/7/3(PSG+) Et3/7/4(PSG+)
+                        Et3/9/1(PSG+) Et3/9/2(PSG+) Et3/9/3(PSG+)
+Po102(U)     LACP(a)    Et3/2/1(PSG+) Et3/2/2(PSG+) Et3/2/3(PSG+) Et3/2/4(PSG+)
+                        Et3/4/1(PSG+) Et3/4/2(PSG+) Et3/4/3(PSG+) Et3/4/4(PSG+)
+                        Et3/6/1(PSG+) Et3/6/2(PSG+) Et3/6/3(PSG+) Et3/6/4(PSG+)
+                        Et3/8/1(PSG+) Et3/8/2(PSG+) Et3/8/3(PSG+) Et3/8/4(PSG+)
+                        Et3/10/1(PSG+) Et3/10/2(PSG+) Et3/10/3(PSG+)
